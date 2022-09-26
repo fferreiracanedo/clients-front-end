@@ -1,10 +1,6 @@
 import RegisterForm from '../../components/registerForm'
 import { Flex } from '@chakra-ui/react'
 const RegisterPage = () => {
-  return (
-    <Flex>
-      <RegisterForm />
-    </Flex>
-  )
+  return <RegisterForm />
 }
 export default RegisterPage

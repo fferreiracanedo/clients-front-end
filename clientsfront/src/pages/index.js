@@ -1,8 +1,7 @@
-import type { NextPage } from 'next'
 import { Flex } from '@chakra-ui/react'
-import RegisterPage from './register_page'
+import RegisterPage from './register_page/index'
 import LoginPage from './login_page'
-const Home: NextPage = () => {
+const Home = () => {
   return (
     <Flex>
       <RegisterPage />
